@@ -1,0 +1,118 @@
+JFDML JFormDesigner: "7.0.0.0.170" Java: "1.8.0_152-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class javax.swing.BoxLayout ) {
+			"axis": 0
+		} ) {
+			name: "this"
+			"iconImage": new com.jformdesigner.model.SwingIcon( 0, "/Pictures/hand.jpg" )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+				name: "panel1"
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1"
+					"text": "fly eye movie reservation system"
+					"font": &Font0 new java.awt.Font( "Microsoft YaHei UI", 0, 16 )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 135
+					"y": 25
+					"width": 250
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label2"
+					"text": "飞眼电影预定系统"
+					"font": #Font0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 130
+					"height": 22
+					"x": 190
+					"y": 55
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label3"
+					"text": "User Name"
+					"font": &Font1 new java.awt.Font( "Microsoft YaHei UI", 0, 14 )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 30
+					"y": 120
+					"width": 83
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label4"
+					"text": "Password"
+					"font": new java.awt.Font( "Microsoft YaHei UI", 0, 14 )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 30
+					"y": 175
+					"width": 83
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "t1"
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "textField1MouseClicked", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 155
+					"y": 120
+					"width": 185
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label5"
+					"text": "Registered"
+					"font": #Font1
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "registeredMouseClicked", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 83
+					"height": 19
+					"x": 405
+					"y": 125
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label6"
+					"text": "Find your password"
+					"font": #Font1
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "findpwMouseClicked", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 130
+					"height": 19
+					"x": 365
+					"y": 170
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button1"
+					"text": "LOGIN"
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "loginMouseClicked", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 130
+					"y": 285
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "cancel"
+					"text": "CANCEL"
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "cancelMouseClicked", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 300
+					"y": 280
+				} )
+				add( new FormComponent( "javax.swing.JPasswordField" ) {
+					name: "p1"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 155
+					"y": 170
+					"width": 185
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label7"
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/Pictures/8.jpg" )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"height": 390
+					"x": -75
+					"y": -10
+					"width": 585
+				} )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 5 )
+			"size": new java.awt.Dimension( 510, 405 )
+		} )
+	}
+}

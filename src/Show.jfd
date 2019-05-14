@@ -1,0 +1,90 @@
+JFDML JFormDesigner: "7.0.0.0.170" Java: "1.8.0_152-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "this"
+			"iconImage": new com.jformdesigner.model.SwingIcon( 0, "/Pictures/hand.jpg" )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class javax.swing.BoxLayout ) {
+				"axis": 0
+			} ) {
+				name: "panel1"
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "picture1"
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/Pictures/复仇者联盟41_1.jpg" )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "picture2"
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/Pictures/下一任：前任1_1.jpg" )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "picture3"
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/Pictures/a mom’s1_1.jpg" )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "picture4"
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/Pictures/大侦探皮卡丘1_1.jpg" )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "picture5"
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/Pictures/何以为家1_1.jpg" )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "picture6"
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/Pictures/调音师1_1.jpg" )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "picture7"
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/Pictures/雪暴1_1.jpg" )
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 10
+				"y": 280
+				"height": 190
+				"width": 770
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label6"
+				"text": "Welcome to our movie reservation system"
+				"font": new java.awt.Font( "Fira Code Medium", 1, 24 )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 85
+				"y": 20
+				"width": 625
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label7"
+				"text": "your location"
+				"font": new java.awt.Font( "Microsoft New Tai Lue", 0, 16 )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 25
+				"y": 90
+				"width": 95
+			} )
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "comboBox1"
+				"model": new javax.swing.DefaultComboBoxModel {
+					selectedItem: "华龙区"
+					addElement( "华龙区" )
+					addElement( "美兰区" )
+					addElement( "秀英区" )
+					addElement( "儋州市" )
+				}
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 165
+				"y": 85
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label8"
+				"text": "这，我应该加一个搜索，让他们搜自己想看的电影，或许，唉，还是让他们选？"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 160
+				"y": 185
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 5, 5 )
+			"size": new java.awt.Dimension( 795, 755 )
+		} )
+	}
+}
